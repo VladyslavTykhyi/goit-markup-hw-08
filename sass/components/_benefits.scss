@@ -1,0 +1,28 @@
+/**
+  |============================
+  | Benefits
+  |============================
+*/
+.benefits__list {
+  display: flex;
+  gap: 30px;
+}
+.benefits__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-cl);
+  margin-bottom: 10px;
+}
+.benefits__icon-container {
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
