@@ -67,21 +67,23 @@
 				</ul>
 			</div>
 			<!-- Mobile menu  -->
-			<button class="mobile-menu__btn-open" type="button">
+			<button class="mobile-menu__button-open js-open-menu" type="button">
 				<svg class="mobile-menu__icon" width="40px" height="40px">
 					<use href="./images/icons.svg#bg-btn"></use>
 				</svg>
 			</button>
-			<div class="mobile-menu">
+			<div class="mobile-menu js-menu-container">
 				<div class="container mobile-menu__container">
-					<button class="mobile-menu__btn-close" type="button">
+					<button class="mobile-menu__button-close js-close-menu" type="button">
 						<svg class="mobile-menu__icon" width="40px" height="40px">
 							<use href="./images/icons.svg#bg-btn-close"></use>
 						</svg>
 					</button>
 					<ul class="mobile-menu__navigation list">
 						<li class="mobile-menu__navigation-item">
-							<a class="mobile-menu__navigation-link mobile-menu__current link" href="./index.html">Студія</a>
+							<a class="mobile-menu__navigation-link mobile-menu__navigation-link-current link" href="./index.html">
+								Студія
+							</a>
 						</li>
 						<li class="mobile-menu__navigation-item">
 							<a class="mobile-menu__navigation-link link" href="./portfolio.html">Портфоліо</a>
@@ -737,8 +739,18 @@
 				</form>
 			</div>
 		</div>
+		<!-- Modal window scrippt -->
 		<script src="./js/modal.js"></script>
+		<!-- AOS animation script -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="./js/aos-animate.js"></script>
+		<!-- Mobile menu script -->
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+			integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+			crossorigin="anonymous"
+		></script>
+		<script defer src="./js/mobile-menu.js"></script>
 	</body>
 </html>
