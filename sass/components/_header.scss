@@ -26,10 +26,20 @@
 	display: flex;
 	align-items: center;
 	margin-right: auto;
+
+	//tablet styles
+	@media screen and (mid-width: 768px) {
+		margin-right: 0;
+	}
 }
 
 .header__link {
 	margin-right: 93px;
+
+	//tablet styles
+	@media screen and (min-width: 768px) {
+		margin-right: 0;
+	}
 }
 .nav__list {
 	display: none;
@@ -38,6 +48,7 @@
 	@media screen and (min-width: 768px) {
 		display: flex;
 		margin-left: 88px;
+		gap: 50px;
 	}
 	//desktop styles
 	@media screen and (min-width: 1200px) {
@@ -61,7 +72,7 @@
 	//tablet styles
 	@media screen and (min-width: 768px) {
 		display: unset;
-		margin-left: auto;
+		margin-left: 0;
 	}
 
 	//desktop styles
@@ -72,8 +83,10 @@
 }
 .header__group-link:not(:last-child) {
 	//tablet styles
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		margin-top: 10px;
+		height: 10px;
+		margin-bottom: 10px;
 	}
 	//desktop styles
 	@media screen and (min-width: 1200px) {

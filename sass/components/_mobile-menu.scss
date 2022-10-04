@@ -21,6 +21,9 @@
 		position: relative;
 		padding: 48px 25px;
 		max-width: 480px;
+
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__button-open {
@@ -67,9 +70,9 @@
 		fill: currentColor;
 	}
 
-	&__navigation {
-		margin-bottom: 250px;
-	}
+	// &__navigation {
+	// 	margin-bottom: auto;
+	// }
 
 	&__navigation-item {
 		&:not(:last-child) {
@@ -95,6 +98,7 @@
 	}
 
 	&__contacts-list {
+		margin-top: 302px;
 		margin-bottom: 64px;
 	}
 
