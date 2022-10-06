@@ -125,6 +125,10 @@
 		margin-top: 29px;
 		border-radius: 4px;
 		background: var(--accent-txt-cl);
+
+		@media screen and (min-width: 768px) and (max-width: 1199px) {
+			margin-top: 45px;
+		}
 	}
 }
 
