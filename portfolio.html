@@ -32,12 +32,11 @@
 			<div class="container header-container">
 				<nav class="nav">
 					<a class="logo link header__link" href="./index.html">
-						<span class="logo__accent">Web</span>
-						Studio
+						<span class="logo__accent">Web</span>Studio
 					</a>
 					<ul class="list nav__list">
 						<li class="nav__list-item">
-							<a class="nav__link link header-nav-link" href="./index.html">Студія</a>
+							<a class="nav__link link header-nav-link " href="./index.html">Студія</a>
 						</li>
 						<li class="nav__list-item">
 							<a class="nav__link link header-nav-link current" href="./portfolio.html">Портфоліо</a>
@@ -65,13 +64,13 @@
 						</a>
 					</li>
 				</ul>
+				<button class="mobile-menu__button-open js-open-menu" type="button">
+					<svg class="mobile-menu__icon" width="40px" height="40px">
+						<use href="./images/icons.svg#bg-btn"></use>
+					</svg>
+				</button>
 			</div>
 			<!-- Mobile menu  -->
-			<button class="mobile-menu__button-open js-open-menu" type="button">
-				<svg class="mobile-menu__icon" width="40px" height="40px">
-					<use href="./images/icons.svg#bg-btn"></use>
-				</svg>
-			</button>
 			<div class="mobile-menu js-menu-container">
 				<div class="container mobile-menu__container">
 					<button class="mobile-menu__button-close js-close-menu" type="button">
@@ -81,69 +80,71 @@
 					</button>
 					<ul class="mobile-menu__navigation list">
 						<li class="mobile-menu__navigation-item">
-							<a class="mobile-menu__navigation-link link" href="./index.html">Студія</a>
+							<a class="mobile-menu__navigation-link  link" href="./index.html">
+								Студія
+							</a>
 						</li>
 						<li class="mobile-menu__navigation-item">
-							<a class="mobile-menu__navigation-link mobile-menu__navigation-link-current link" href="./portfolio.html">
-								Портфоліо
-							</a>
+							<a class="mobile-menu__navigation-link mobile-menu__navigation-link-current link" href="./portfolio.html">Портфоліо</a>
 						</li>
 						<li class="mobile-menu__navigation-item">
 							<a class="mobile-menu__navigation-link link" href="">Контакти</a>
 						</li>
 					</ul>
-					<ul class="mobile-menu__contacts-list list">
-						<li class="mobile-menu__contacts-item">
-							<a class="mobile-menu__contacts-link mobile-menu__navigation-link-current link" href="tel:+380961111111">
-								+38 096 111 11 11
-							</a>
-						</li>
-						<li class="mobile-menu__contacts-item">
-							<a class="mobile-menu__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						</li>
-					</ul>
-					<ul class="mobile-menu__social-list list">
-						<li class="mobile-menu__social-item">
-							<a
-								class="mobile-menu__social-link link"
-								target="_blank"
-								rel="noreferrer noopener"
-								href="https://www.instagram.com"
-							>
-								Instagram
-							</a>
-						</li>
-						<li class="mobile-menu__social-item">
-							<a
-								class="mobile-menu__social-link link"
-								target="_blank"
-								rel="noreferrer noopener"
-								href="https://www.twitter.com"
-							>
-								Twitter
-							</a>
-						</li>
-						<li class="mobile-menu__social-item">
-							<a
-								class="mobile-menu__social-link link"
-								target="_blank"
-								rel="noreferrer noopener"
-								href="https://www.facebook.com"
-							>
-								Facebook
-							</a>
-						</li>
-						<li class="mobile-menu__social-item">
-							<a
-								class="mobile-menu__social-link link"
-								target="_blank"
-								rel="noreferrer noopener"
-								href="https://www.linkedin.com"
-							>
-								Linkedin
-							</a>
-						</li>
-					</ul>
+					<div class="mobile-menu__bottom-lists">
+						<ul class="mobile-menu__contacts-list list">
+							<li class="mobile-menu__contacts-item">
+								<a class="mobile-menu__contacts-link link mobile-menu__mobile-contact" href="tel:+380961111111">
+									+38 096 111 11 11
+								</a>
+							</li>
+							<li class="mobile-menu__contacts-item">
+								<a class="mobile-menu__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+						</ul>
+						<ul class="mobile-menu__social-list list">
+							<li class="mobile-menu__social-item">
+								<a
+									class="mobile-menu__social-link link"
+									target="_blank"
+									rel="noreferrer noopener"
+									href="https://www.instagram.com"
+								>
+									Instagram
+								</a>
+							</li>
+							<li class="mobile-menu__social-item">
+								<a
+									class="mobile-menu__social-link link"
+									target="_blank"
+									rel="noreferrer noopener"
+									href="https://www.twitter.com"
+								>
+									Twitter
+								</a>
+							</li>
+							<li class="mobile-menu__social-item">
+								<a
+									class="mobile-menu__social-link link"
+									target="_blank"
+									rel="noreferrer noopener"
+									href="https://www.facebook.com"
+								>
+									Facebook
+								</a>
+							</li>
+							<li class="mobile-menu__social-item">
+								<a
+									class="mobile-menu__social-link link"
+									target="_blank"
+									rel="noreferrer noopener"
+									href="https://www.linkedin.com"
+								>
+									Linkedin
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -487,8 +488,7 @@
 				<div class="footer__tablet">
 					<div class="footer-container">
 						<a class="logo footer__logo link" href="./index.html">
-							<span class="logo__accent">Web</span>
-							Studio
+							<span class="logo__accent">Web</span>Studio
 						</a>
 						<address class="address">
 							<ul class="address__list list">

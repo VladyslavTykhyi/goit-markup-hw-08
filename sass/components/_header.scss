@@ -13,8 +13,14 @@
 	}
 }
 .header-container {
+	position: relative;
 	display: flex;
 	align-items: center;
+
+	//tablet styles
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		height: 80px;
+	}
 }
 .nav {
 	font-weight: 500;
@@ -34,7 +40,6 @@
 }
 
 .header__link {
-	margin-right: 93px;
 
 	//tablet styles
 	@media screen and (min-width: 768px) {
@@ -59,9 +64,15 @@
 }
 .header-nav-link,
 .header-contact-link {
-	padding-top: 32px;
-	padding-bottom: 32px;
 	display: block;
+	@media screen and (max-width: 767px) {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+	@media screen and (min-width: 1200px) {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
 }
 .header-contact-link {
 	display: flex;
@@ -127,7 +138,7 @@
 		background: var(--accent-txt-cl);
 
 		@media screen and (min-width: 768px) and (max-width: 1199px) {
-			margin-top: 45px;
+			margin-top: 30px;
 		}
 	}
 }

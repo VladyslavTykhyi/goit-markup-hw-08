@@ -28,7 +28,6 @@
 	//Tablet styles
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		margin-bottom: 0;
-		margin-right: 165px;
 	}
 	//Desktop styles
 	@media screen and (min-width: 1200px) {
@@ -41,6 +40,7 @@
 	//tablet styles
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		display: flex;
+		width: 100%;
 		justify-content: space-around;
 		align-items: baseline;
 
@@ -52,24 +52,21 @@
 		display: flex;
 		align-items: baseline;
 		margin-bottom: 0;
+		margin-right: 93px;
 	}
 }
 .social-footer {
-	width: 206px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 60px;
+
+	//mobile styles
+	@media screen and (max-width: 767px) {
+		margin-bottom: 60px;
+	}
 
 	//tablet styles
 	@media screen and (min-width: 768px) and (max-width: 1199px) {
 		margin: 0;
 	}
-	//Desktop styles
-	@media screen and (min-width: 1200px) {
-		display: block;
-		width: 206px;
-		margin-right: 93px;
-	}
+
 }
 
 .social-footer__link {
@@ -93,7 +90,8 @@
 
 .social-footer__list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 10px;
 	cursor: pointer;
 }
 
